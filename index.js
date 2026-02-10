@@ -122,7 +122,7 @@ client.on("messageCreate", async (message) => {
   if (message.author.bot) return;
 
   // Only respond in the #openclaw channel
-  if (message.channel.name !== "openclaw") return;
+  // if (message.channel.name !== "open_claw") return;
 
   // Use the full message content as the prompt
   const userPrompt = message.content.trim();
